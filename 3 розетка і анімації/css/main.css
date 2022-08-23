@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 256px;
+    height: 512px;
+    padding: 30px 0px 0 40px;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    background-image: url("../img/iphoneN.jpg");
+    width: 256px;
+    height: 327px;
+    display: block;
+}
+.btn:hover{
+    background: url("../img/iphoneActiveN.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div{
+    transition: all 0.8s ease 0s;
+}
+.transform{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: translate(-50%, 0px);
+    position: relative;
+    left: 50%;
+}
+.transform1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: all 0.8s ease 0s;
+}
+.transform1:hover{
+    /* transform: translate(20px, 20px); */
+    transform: translate3d(20px, 20px, 50px);
+}
+.transform2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: scale(1, 1);
+}
+.transform2:hover{
+    /* transform: scale(1, 1.5); */
+    /* transform: scale(0.5); */
+    transform: scale(-1, 1);
+}
+.transform3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* transform-origin: center; */
+    transform-origin: top right;
+    transform: rotate(0deg);
+}
+.transform3:hover{
+    transform: rotate(45deg);
+    /* transform: rotate(-180deg);
+    градуси*/
+}
+.transform4{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.transform4:hover{
+    transform: skew(10deg, 10deg);
+}
+/* transform:matrix
+мультизапись */
